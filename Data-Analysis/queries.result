@@ -1,0 +1,271 @@
+--1
+BUSID       AGE         MANUFACTURER                                                
+----------- ----------- ------------------------------------------------------------
+        331           5 Ford                                                        
+        351           1 Volkswagen                                                  
+        368           3 Chevrolet                                                   
+        375           6 Toyota                                                      
+        379           6 Toyota                                                      
+        412           3 Toyota                                                      
+        458           1 Honda                                                       
+        476           4 Honda                                                       
+        254           1 Benz                                                        
+        314           2 Toyota                                                      
+        319           5 Chevrolet                                                   
+        330           5 Chevrolet                                                   
+        370           5 Toyota                                                      
+        402           1 Benz                                                        
+        447           1 Chevrolet                                                   
+        459           1 Benz                                                        
+        480           3 Honda                                                       
+        482           3 Chevrolet                                                   
+        527           3 Volvo                                                       
+        250           5 Chevrolet                                                   
+        377           4 Volvo                                                       
+        404           3 Chevrolet                                                   
+        481           3 Benz                                                        
+        294           3 Toyota                                                      
+        383           8 Honda                                                       
+        431           3 Honda                                                       
+        451           7 Toyota                                                      
+        512           3 Benz                                                        
+
+  28 record(s) selected.
+
+
+--2
+TOTAL      
+-----------
+         90
+
+  1 record(s) selected.
+
+
+--3
+TOTAL      
+-----------
+         30
+
+  1 record(s) selected.
+
+
+--4
+ROUTEID     TOTALREVENUE
+----------- ------------
+          4       121200
+          5        85900
+          1        85000
+          6        66400
+         10        65200
+          7        49900
+
+  6 record(s) selected.
+
+
+--5a
+DRIVERID    FIRSTNAME                                                    LASTNAME                                                    
+----------- ------------------------------------------------------------ ------------------------------------------------------------
+   99611229 Luisa                                                        Harnish                                                     
+   99616605 Joye                                                         Nedman                                                      
+   99625249 Harley                                                       Works                                                       
+   99641125 Stacey                                                       Lortz                                                       
+   99660420 Avery                                                        Demus                                                       
+   99664875 Reyes                                                        Mesmer                                                      
+
+  6 record(s) selected.
+
+
+--5b
+DRIVERID    TOTALDEMERIT TOTALFINE  
+----------- ------------ -----------
+   99630025           13        1100
+   99665378           12         930
+   99645320           11        1100
+   99611222           11         770
+   99654603           11         600
+   99630173           10         620
+   99627956           10         530
+   99633690            9         400
+   99642131            9         250
+   99664103            9         250
+   99659833            8         170
+   99636745            7         430
+   99613410            7         180
+
+  13 record(s) selected.
+
+
+--6
+MANUFACTURER                                                 BUSID      
+------------------------------------------------------------ -----------
+Ford                                                                 331
+Volkswagen                                                           351
+
+  2 record(s) selected.
+
+
+--7a
+PASSENGERTYPE        TOTALFAREREVENUE                 
+-------------------- ---------------------------------
+CH                                               75.00
+GE                                             1026.00
+SE                                               21.00
+ST                                              125.00
+
+  4 record(s) selected.
+
+
+--7b
+PASSENGERTYPE        TOTALFAREREVENUE                 
+-------------------- ---------------------------------
+GE                                             1026.00
+
+  1 record(s) selected.
+
+
+--7c
+TYPE                
+--------------------
+GE                  
+
+  1 record(s) selected.
+
+
+--8a
+ROUTEID     NUMBEROFTRIPS
+----------- -------------
+          4            26
+
+  1 record(s) selected.
+
+
+--8b
+DATE       NUMBEROFTRIPS
+---------- -------------
+2017-05-07            93
+
+  1 record(s) selected.
+
+
+--9
+OCCUPATION                                                  
+------------------------------------------------------------
+Accounts Assistant                                          
+Aircraft Maintenance Engineer                               
+Audit Manager                                               
+Blind Fitter                                                
+Chartered                                                   
+Chicken Chaser                                              
+Councillor                                                  
+Employment                                                  
+Florist                                                     
+Hairdresser                                                 
+Hotel Worker                                                
+Investment Manager                                          
+Licensed Premises                                           
+Merchant Seaman                                             
+Military Leader                                             
+Minicab Driver                                              
+Operative                                                   
+Orthopaedic                                                 
+Prison Chaplain                                             
+Projectionist                                               
+Purchasing Assistant                                        
+Sand Blaster                                                
+Tax Analyst                                                 
+Thermal Engineer                                            
+Timber Worker                                               
+Vehicle Technician                                          
+Wood Cutter                                                 
+child                                                       
+
+  28 record(s) selected.
+
+
+--10
+FIRSTNAME                                                    LASTNAME                                                     SIN        
+------------------------------------------------------------ ------------------------------------------------------------ -----------
+Marya                                                        Chhour                                                          99613410
+Joye                                                         Nedman                                                          99616605
+Kaycee                                                       Alaibilla                                                       99633690
+Avery                                                        Demus                                                           99660420
+Reyes                                                        Mesmer                                                          99664875
+
+  5 record(s) selected.
+
+
+--11
+FIRSTNAME                                                    LASTNAME                                                     SEX                                                         
+------------------------------------------------------------ ------------------------------------------------------------ ------------------------------------------------------------
+Renato                                                       Airhart                                                      M                                                           
+Matthew                                                      Armacost                                                     F                                                           
+Lourdes                                                      Bauswell                                                     M                                                           
+Laurena                                                      Begin                                                        M                                                           
+Annamae                                                      Beliles                                                      M                                                           
+Valentin                                                     Billa                                                        M                                                           
+Gianna                                                       Branin                                                       M                                                           
+Hortencia                                                    Bresser                                                      F                                                           
+Floyd                                                        Bub                                                          M                                                           
+Edelmira                                                     Calzado                                                      M                                                           
+Tandra                                                       Castillanos                                                  M                                                           
+Andree                                                       Christmann                                                   M                                                           
+Lenita                                                       Darbro                                                       F                                                           
+Ilona                                                        Dudash                                                       F                                                           
+Miss                                                         Dunning                                                      F                                                           
+Hannah                                                       Edmison                                                      F                                                           
+Lyla                                                         Fucillo                                                      F                                                           
+Barney                                                       Hagen                                                        F                                                           
+Elfrieda                                                     Hinsch                                                       M                                                           
+Lera                                                         Hua                                                          M                                                           
+Carole                                                       Hughlett                                                     M                                                           
+Corrie                                                       Kardell                                                      M                                                           
+Queenie                                                      Kramarczyk                                                   F                                                           
+Willard                                                      Lablanc                                                      F                                                           
+Chandra                                                      Lagos                                                        M                                                           
+Nohemi                                                       Leko                                                         F                                                           
+Tambra                                                       Lembke                                                       M                                                           
+Tom                                                          Loeza                                                        M                                                           
+Kendra                                                       Loud                                                         M                                                           
+Vicki                                                        Maikoksoong                                                  M                                                           
+Huey                                                         Marcille                                                     F                                                           
+Jame                                                         Mastro                                                       F                                                           
+Elise                                                        Michelle                                                     M                                                           
+Belen                                                        Nelton                                                       F                                                           
+Josefa                                                       Opitz                                                        F                                                           
+Crissy                                                       Pacholec                                                     M                                                           
+Colton                                                       Pesqueira                                                    F                                                           
+Dell                                                         Polino                                                       M                                                           
+Hui                                                          Portaro                                                      F                                                           
+Danilo                                                       Pride                                                        M                                                           
+Kimberely                                                    Rabuse                                                       M                                                           
+Lauryn                                                       Randol                                                       F                                                           
+Francoise                                                    Rautenstrauch                                                F                                                           
+Paulene                                                      Rhule                                                        M                                                           
+Francesco                                                    Sarchet                                                      M                                                           
+Hollis                                                       Stanfield                                                    M                                                           
+Lea                                                          Steinhaus                                                    F                                                           
+Nadine                                                       Swartzbeck                                                   M                                                           
+Leanna                                                       Tijerina                                                     M                                                           
+Leila                                                        Titzer                                                       F                                                           
+Paola                                                        Vielma                                                       M                                                           
+Tish                                                         Violett                                                      M                                                           
+Iesha                                                        Wardle                                                       F                                                           
+Apolonia                                                     Warne                                                        M                                                           
+Jaime                                                        Wasurick                                                     F                                                           
+Felton                                                       Yafuso                                                       M                                                           
+Asha                                                         Zoldak                                                       F                                                           
+
+  57 record(s) selected.
+
+
+--12
+ROUTEID     SNAME                                                        ARRIVALTIME
+----------- ------------------------------------------------------------ -----------
+          6 CHEDMAC at EXTENDICARE                                       16.20.30   
+         10 CHEDMAC at EXTENDICARE                                       16.23.30   
+          1 NASH at BARTON                                               16.30.00   
+         10 NASH at BARTON                                               16.31.00   
+          6 NASH at BARTON                                               16.35.30   
+          5 NASH at BARTON                                               16.36.30   
+
+  6 record(s) selected.
